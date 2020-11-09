@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row align-items-center main">
+          <div class="col p-0">
+            <div class="logo">
+              <img src="images/Logo.svg" alt="Logo" />
+            </div>
+          </div>
+          <div class="col p-0">
+            <nav class="menu">
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link nav-setting" href="#">Наши туры</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-setting" href="#">Оплата</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-setting" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col p-0">
+            <div class="phone text-right text-nowrap">
+              <a
+                class="phone__settings text-decoration-none"
+                href="tel:+79999999999"
+                >+7 (999) 999 - 99 - 99</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="container-fluid">
+      <div class="row main slider__tour align-items-center">
+        <div class="sec1__block-left ml-5">
+          <div class="block__title">
+            <h1>Авторские экскурсии</h1>
+            <span>от туристического агентства Go Tour</span>
+          </div>
+          <div class="block__links d-flex mt-5">
+            <a class="text-decoration-none text-nowrap block__link link-first" href="#">Исследовать туры</a>
+            <a class="text-decoration-none text-nowrap block__link link-second ml-4 d-flex align-items-center" href="#"> <svg width="16" height="19" viewBox="0 0 16 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 9.5L0.249999 18.5933L0.25 0.406733L16 9.5Z" fill="white"/>
+              </svg>Смотреть видео</a>
+          </div>
+        </div>
+        <div class="sec2__block-right">
+          <h2 class="mb-3">Горящее предложение!</h2>
+          <a class="text-decoration-none" href="#">
+            <div class="block__elements d-flex flex-column justify-content-center pl-4">
+              <div class="element__title">
+                <h3>Экскурсия по ночному Сочи</h3>
+                <span>два человека</span>
+              </div>
+              <div class="element__price">
+                <span>2000₽</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid mt-5">
+      <div class="d-flex justify-content-center">
+        <form action="#" class="search__form">
+          <input type="text" placeholder="Введите Ваш город">
+          <label for="#">или фильтр по:</label>
+          <input type="text" placeholder="Город">
+          <input type="text" placeholder="Категория">
+          <input type="text" placeholder="Дата">
+          <input type="submit" value="Найти">
+        </form>
+      </div>
+    </section>
+
+
+    <footer>
+      <script src="js/bootstrap.min.js"></script>
+    </footer>
+  </body>
+</html>

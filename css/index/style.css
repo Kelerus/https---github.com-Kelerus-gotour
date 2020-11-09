@@ -1,0 +1,161 @@
+.main {
+    margin: 0 45px;
+}
+
+.nav-setting {
+    border-bottom: 1px solid transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.nav-setting:hover {
+    border-bottom: 1px solid black;
+}
+
+.phone {
+    width: fit-content;
+    
+}
+
+.phone__settings {
+    padding: 10px 20px;
+    border-radius: 90px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 1px solid #0056b3;
+}
+
+.slider__tour {
+    background-image: url(/images/slider.svg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block__title h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+}
+
+.block__title span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+
+.block__links a:last-child svg{
+    margin-right: 10px;
+}
+
+.block__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 91px;
+}
+
+
+.link-first {
+    border: 3px solid #0040E3;
+    background-color: #0040E3;
+}
+
+.link-second {
+    border: 3px solid white;
+    background-color: rgba(0, 0,0, .3);
+}
+
+.sec2__block-right {
+    margin-left: auto;
+}
+
+.sec2__block-right h2 {
+    color: white;
+}
+
+.block__elements {
+    background-image: url(/images/sochi.svg);
+    width: 520px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.element__title h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.element__title span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.element__price span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+}
+
+.search__form {
+    border: 1px solid #2078FB;
+    padding-right: 5px;
+}
+
+.search__form input{
+    color: #808080;
+    width: 200px;
+    padding: 20px;
+    border: 0;
+    margin-right: -5px;
+    outline: none;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.search__form label {
+    margin: 0;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #808080;
+}
+
+.search__form input:first-child {
+    width: 350px;
+    border-right: 3px solid gray;
+}
+
+.search__form input:last-child {
+    background: #0040E3;
+    color: white;
+}
+
