@@ -261,3 +261,19 @@ body {
     font-weight: 800;
     font-size: 18px;
 }
+
+.shop__list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    margin-right: 10px;
+    padding: 10px 25px;
+    background: #E1E1E1;
+    border-radius: 5px;
+}
+
+.shop__list:first-child {
+    color: white;
+    background: #0040E3;
+}
