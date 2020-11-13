@@ -32,9 +32,15 @@ body {
 
 .slider__tour {
     background-image: url(/images/slider.svg);
-    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.block__elements {
+    padding: 120px 0;
+    background-image: url('../../images/sochi.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .block__title h1 {
@@ -87,14 +93,6 @@ body {
     font-weight: bold;
 }
 
-.block__elements {
-    background-image: url(/images/sochi.svg);
-    width: 520px;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .element__title h3{
     font-family: Montserrat;
     font-style: normal;
@@ -124,9 +122,15 @@ body {
     padding-right: 5px;
 }
 
+.search__form input:first-child {
+    width: 300px;
+    border-right: 3px solid gray;
+}
+
 .search__form input{
     color: #808080;
-    width: 200px;
+    min-width: 170px;
+    width: 100px;
     padding: 20px;
     border: 0;
     margin-right: -5px;
@@ -149,10 +153,7 @@ body {
     color: #808080;
 }
 
-.search__form input:first-child {
-    width: 350px;
-    border-right: 3px solid gray;
-}
+
 
 .search__form input:last-child {
     font-style: normal;
