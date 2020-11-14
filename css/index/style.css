@@ -6,6 +6,10 @@ body {
     margin: 0 45px;
 }
 
+.container-dop {
+    max-width: 1250px;
+}
+
 .nav-setting {
     border-bottom: 1px solid transparent;
     font-family: Montserrat;
@@ -120,6 +124,8 @@ body {
 .search__form {
     border: 1px solid #2078FB;
     padding-right: 5px;
+    flex-direction: row;
+    width: 1303px;
 }
 
 .search__form input:first-child {
@@ -159,6 +165,8 @@ body {
     font-style: normal;
     background: #0040E3;
     color: white;
+    display: block;
+    width: 300px;
 }
 
 .search__form input:last-child:hover {
@@ -294,4 +302,92 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
+}
+
+.photo__title-head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 150%;
+    color: #0040E3;
+}
+
+.grid-container__photos {
+    margin: auto;
+    display: grid;
+    grid-template-areas:"post-1 post-1 post-2"
+                        "post-1 post-1 post-3"
+                        "post-4 post-5 post-6";
+    grid-gap: 20px;
+    max-width: inherit;
+    
+}
+
+.grid-container__photos img {
+    width: 100%;
+}
+
+.photo__element {
+    position: relative;
+}
+
+.photo__title {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.photo__title h3 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.post-1 {
+    grid-area: post-1;
+}
+
+.post-2 {
+    grid-area: post-2;
+}
+
+.post-3 {
+    grid-area: post-3;
+}
+
+.post-4 {
+    grid-area: post-4;
+}
+
+.post-5 {
+    grid-area: post-5;
+}
+
+.post-6 {
+    grid-area: post-6;
+}
+
+
+.photo__more a {
+    width: fit-content;
+    padding: 20px 100px;
+    background-color: #0040E3;
+    border-radius: 91px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.photo__more a:hover {
+    background-color: #0d37a3;
+    color: rgb(190, 190, 190);
 }
