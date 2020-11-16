@@ -391,3 +391,52 @@ body {
     background-color: #0d37a3;
     color: rgb(190, 190, 190);
 }
+
+.exc__img img{
+    width: inherit;
+}
+
+.exc__title h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    color: #0040E3;
+}
+
+.exc__title a {
+    width: fit-content;
+    padding: 10px 50px;
+    border-radius: 91px;
+    border: 1px solid #0040E3;
+}
+
+.exc__item {
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.exc__item h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.exc__item p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.exc__likes {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.exc__more {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #0040E3;
+}
