@@ -1,0 +1,442 @@
+body {
+    font-family: Montserrat;
+}
+
+.main {
+    margin: 0 45px;
+}
+
+.container-dop {
+    max-width: 1250px;
+}
+
+.nav-setting {
+    border-bottom: 1px solid transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.nav-setting:hover {
+    border-bottom: 1px solid black;
+}
+
+.phone__settings {
+    padding: 10px 20px;
+    border-radius: 90px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: 1px solid #0056b3;
+}
+
+.slider__tour {
+    background-image: url(/images/slider.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block__elements {
+    padding: 120px 0;
+    background-image: url('../../images/sochi.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.block__title h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+}
+
+.block__title span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+
+.block__links a:last-child svg{
+    margin-right: 10px;
+}
+
+.block__link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 91px;
+}
+
+
+.link-first {
+    border: 3px solid #0040E3;
+    background-color: #0040E3;
+}
+
+.link-second {
+    border: 3px solid white;
+    background-color: rgba(0, 0,0, .3);
+}
+
+.sec2__block-right {
+    margin-left: auto;
+}
+
+.sec2__block-right h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.element__title h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+.element__title span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.element__price span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+}
+
+.search__form {
+    border: 1px solid #2078FB;
+    padding-right: 5px;
+    flex-direction: row;
+    width: 1303px;
+}
+
+.search__form input:first-child {
+    width: 300px;
+    border-right: 3px solid gray;
+}
+
+.search__form input{
+    color: #808080;
+    min-width: 170px;
+    width: 100px;
+    padding: 20px;
+    border: 0;
+    margin-right: -5px;
+    outline: none;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.search__form label {
+    margin: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px;
+    color: #808080;
+}
+
+
+
+.search__form input:last-child {
+    font-style: normal;
+    background: #0040E3;
+    color: white;
+    display: block;
+    width: 300px;
+}
+
+.search__form input:last-child:hover {
+    font-style: normal;
+    background: #07297e;
+    color: rgb(165, 164, 164);
+}
+
+.social__title h3 {
+    writing-mode: vertical-rl;
+    margin-left: 6px;
+    font-style: normal;
+
+    color: #0040E3;
+    font-weight: 800;
+    font-style: 24px;
+}
+
+.shop__element {
+    min-width: 200px;
+    max-width: 400px;
+    border: 2px solid #0040E3;
+}
+
+.tour__block-top {
+    background-image: url(/images/tour_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.tour__dec p{
+    margin: 0;
+    padding: 5px 30px;
+    border: 1px solid rgba(0, 0,0, .3);
+    border-radius: 4px;
+    background: #04CA00;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.tour__time p {
+    margin: 0;
+    padding: 5px 20px;
+    width: 130px;
+    text-align: center;
+    border-radius: 90px;
+    border: 2px solid #0040E3;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #252424;
+}
+
+.profile__name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.likes span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tour__information h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.tour__information p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #252424;
+}
+
+.tour_day {
+    padding: 5px 20px;
+    background: #FF5757;
+    border-radius: 4px;
+}
+
+.tour__price {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.tour__more a {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.shop__list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    margin-right: 10px;
+    padding: 10px 25px;
+    background: #E1E1E1;
+    border-radius: 5px;
+}
+
+.shop__list:first-child {
+    color: white;
+    background: #0040E3;
+}
+
+.about__item {
+    width: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.about__item h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+}
+
+.about__item p {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.photo__title-head {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 150%;
+    color: #0040E3;
+}
+
+.grid-container__photos {
+    margin: auto;
+    display: grid;
+    grid-template-areas:"post-1 post-1 post-2"
+                        "post-1 post-1 post-3"
+                        "post-4 post-5 post-6";
+    grid-gap: 20px;
+    max-width: inherit;
+    
+}
+
+.grid-container__photos img {
+    width: 100%;
+}
+
+.photo__element {
+    position: relative;
+}
+
+.photo__title {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+}
+
+.photo__title h3 {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.post-1 {
+    grid-area: post-1;
+}
+
+.post-2 {
+    grid-area: post-2;
+}
+
+.post-3 {
+    grid-area: post-3;
+}
+
+.post-4 {
+    grid-area: post-4;
+}
+
+.post-5 {
+    grid-area: post-5;
+}
+
+.post-6 {
+    grid-area: post-6;
+}
+
+
+.photo__more a {
+    width: fit-content;
+    padding: 20px 100px;
+    background-color: #0040E3;
+    border-radius: 91px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.photo__more a:hover {
+    background-color: #0d37a3;
+    color: rgb(190, 190, 190);
+}
+
+.exc__img img{
+    width: inherit;
+}
+
+.exc__title h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    color: #0040E3;
+}
+
+.exc__title a {
+    width: fit-content;
+    padding: 10px 50px;
+    border-radius: 91px;
+    border: 1px solid #0040E3;
+}
+
+.exc__item {
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.exc__item h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.exc__item p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.exc__likes {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.exc__more {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #0040E3;
+}
