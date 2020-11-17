@@ -607,6 +607,10 @@ body {
     color: #000000;
 }
 
+footer {
+    background: #EFF4FF;
+}
+
 
 .footer__description {
     color: black;
