@@ -418,6 +418,11 @@ body {
     border: 1px solid #0040E3;
 }
 
+.exc__title a:hover {
+    background:#0040E3;
+    color: white;
+}
+
 .exc__item {
     padding: 20px;
     background: white;
@@ -473,10 +478,15 @@ body {
 }
 
 .explore__more_button a {
+    text-decoration: none;
     padding: 15px 70px;
     background: white;
     color: black;
     border-radius: 91px;
+}
+
+.explore__more_button a:hover {
+    background: rgb(163, 163, 163);
 }
 
 .slider__explore__more {
@@ -528,6 +538,11 @@ body {
     line-height: 150%;
     text-transform: uppercase;
     color: white;
+}
+
+.articles__more a:hover {
+    background-color: #0d37a3;
+    color: rgb(190, 190, 190);
 }
 
 .reviews__title {
@@ -625,6 +640,7 @@ footer {
 }
 
 .footer__support a{
+    text-decoration: none;
     text-align: center;
     width: 300px;
     color: white;
@@ -633,10 +649,22 @@ footer {
     border-radius: 78px;
 }
 
+.footer__support a:hover {
+    background-color: #0d37a3;
+    color: rgb(190, 190, 190);
+}
+
 .footer__links li {
     margin-top: 20px;
 }
 
 .footer__links a {
     color: black;
+}
+
+footer h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
 }
