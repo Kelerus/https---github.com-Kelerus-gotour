@@ -495,6 +495,21 @@ body {
     width: 700px;
 }
 
+.slider__explore__more .carousel-item img {
+    height: 400px;
+}
+
+.slider__explore__more .carousel ol {
+    bottom: -40px;
+}
+
+.slider__explore__more .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 0;
+    border-radius: 50%;
+}
+
 .articles__title h2 {
     text-transform: uppercase;
     font-style: normal;
@@ -552,6 +567,22 @@ body {
     text-transform: uppercase;
     color: #0040E3;
     letter-spacing: 0.185em;
+}
+
+.reviews__slider .carousel-indicators {
+    bottom: -40px;
+}
+
+.reviews__slider .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border: 0;
+    border-radius: 50%;
+    background: #BBB6B6;
+}
+
+.reviews__slider .carousel-indicators .active {
+    background: #0040E3;
 }
 
 .reviews {
